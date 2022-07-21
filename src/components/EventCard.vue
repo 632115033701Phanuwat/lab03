@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: "EventCard",
+  name: 'EventCard',
   //   data() {
   //     return {
   //       event: {
@@ -26,10 +26,10 @@ export default {
   props: {
     event: {
       type: Object,
-      required: true,
-    },
-  },
-};
+      required: true
+    }
+  }
+}
 </script>
 
 <style scoped>
